@@ -7,18 +7,18 @@
 
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
-| (nome 1) | @username | 3A |
-| (nome 2) | @username | 3A |
+| (Rebeca Alphonsus Lima) | @iwbeca | 3C |
+| (Sabrina Marim da Costa) | @username | 3C |
 | (nome 3) | @username | 3A |
 
-**Tema:** (escreva aqui em 1 frase)
-**Tecnologia:** Python + Flask + SQLite
+**Tema:** (Plataforma de cursos)
+**Tecnologia:** PHP + MYSQL
 
 ---
 
 ## 🎯 O que o sistema faz
 
-(Descreva em 2-3 frases o problema que o sistema resolve e para quem)
+(Nossa proposta é uma plataforma que conecta pessoas interessadas em aprender com voluntários dispostos a ensinar diferentes habilidades, como programação, artesanato, crochê e outras áreas. Os instrutores cadastram seus cursos e, quando um número mínimo de inscritos é atingido, uma aula presencial é organizada em uma escola ou espaço parceiro. Para participar, cada aluno doa 1 kg de alimento não perecível e escolhe, na plataforma, qual ONG ou causa social receberá a doação.)
 
 ---
 
