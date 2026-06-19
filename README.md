@@ -1,4 +1,4 @@
-# TCC 2026 — [Nome do Grupo]
+# TCC 2026 — [EducaAção]
 **LTP3 + QP3 · CEMIC 2026 · Prof. Rafael Martins Alves**
 
 ---
@@ -8,8 +8,7 @@
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
 | (Rebeca Alphonsus Lima) | @iwbeca | 3C |
-| (Sabrina Marim da Costa) | @username | 3C |
-| (nome 3) | @username | 3A |
+| (Sabrina Marim da Costa) | @sabrinamarim | 3C |
 
 **Tema:** (Plataforma de cursos)
 **Tecnologia:** PHP + MYSQL
