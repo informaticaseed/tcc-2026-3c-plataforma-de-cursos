@@ -1,0 +1,928 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EducaAção — Plataforma social que conecta pessoas interessadas em aprender com voluntários dispostos a ensinar. Cursos gratuitos mediante doação de alimentos.">
+  <meta name="keywords" content="educação, voluntariado, cursos gratuitos, doação de alimentos, solidariedade">
+  <meta name="author" content="EducaAção">
+  <title>EducaAção — Educação que transforma vidas</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- SwiperJS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- AOS Animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Estilos customizados -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/effects.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVEGAÇÃO
+       ============================================ -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <img src="assets/img/logo-nav.png" alt="EducaAção" class="navbar-logo" width="82" height="52">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu de navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#problema">O Problema</a></li>
+          <li class="nav-item"><a class="nav-link" href="#como-funciona">Como Funciona</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#inscricao">Inscrição</a></li>
+          <li class="nav-item"><a class="nav-link" href="#voluntario">Voluntário</a></li>
+          <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav-cta" href="#inscricao">Inscreva-se</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ============================================
+         1. HERO SECTION
+         ============================================ -->
+    <section id="hero" class="hero-section" aria-label="Apresentação">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center g-4 g-lg-5">
+          <!-- Coluna esquerda: título e ações -->
+          <div class="col-lg-6 hero-left" data-aos="fade-right" data-aos-duration="800">
+            <span class="hero-badge">
+              <i class="fas fa-graduation-cap me-2" aria-hidden="true"></i>Plataforma Social EducaAção
+            </span>
+            <h1 class="hero-title">Educação que transforma vidas através da solidariedade</h1>
+            <p class="hero-text">
+              Conectamos pessoas que desejam aprender com voluntários dispostos a ensinar.
+              Cursos 100% gratuitos — a inscrição é feita com a doação de 1kg de alimento não perecível
+              para instituições sociais parceiras.
+            </p>
+            <div class="hero-buttons d-flex flex-wrap gap-3">
+              <a href="#inscricao" class="btn btn-primary btn-lg btn-hero">
+                <i class="fas fa-user-graduate me-2" aria-hidden="true"></i>Quero me Inscrever
+              </a>
+              <a href="#cursos" class="btn btn-outline-primary btn-lg btn-hero">
+                <i class="fas fa-book-open me-2" aria-hidden="true"></i>Ver Cursos
+              </a>
+            </div>
+            <div class="hero-stats-row" aria-label="Números do projeto">
+              <div class="hero-stat">
+                <strong class="hero-stat-number">5</strong>
+                <span class="hero-stat-label">Cursos ativos</span>
+              </div>
+              <div class="hero-stat">
+                <strong class="hero-stat-number">50+</strong>
+                <span class="hero-stat-label">Colaboradores</span>
+              </div>
+              <div class="hero-stat">
+                <strong class="hero-stat-number">500+</strong>
+                <span class="hero-stat-label">Alunos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna direita: caixa de informações -->
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+            <div class="hero-info-card">
+              <h2 class="hero-info-title">Olá, seja bem-vindo <span aria-hidden="true">👋</span></h2>
+              <p class="hero-info-desc">
+                Acompanhe em tempo real o impacto do projeto EducaAção na comunidade.
+              </p>
+              <ul class="hero-info-list">
+                <li>
+                  <span class="hero-info-icon"><i class="fas fa-book" aria-hidden="true"></i></span>
+                  <span class="hero-info-text">
+                    <strong>Cursos disponíveis</strong>
+                    <small>Informática, Crochê, Artesanato e mais</small>
+                  </span>
+                  <span class="hero-info-badge">5</span>
+                </li>
+                <li>
+                  <span class="hero-info-icon"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></span>
+                  <span class="hero-info-text">
+                    <strong>Colaboradores voluntários</strong>
+                    <small>Professores que compartilham conhecimento</small>
+                  </span>
+                  <span class="hero-info-badge">50+</span>
+                </li>
+                <li>
+                  <span class="hero-info-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></span>
+                  <span class="hero-info-text">
+                    <strong>Alunos inscritos</strong>
+                    <small>Pessoas capacitadas pelo projeto</small>
+                  </span>
+                  <span class="hero-info-badge">500+</span>
+                </li>
+                <li>
+                  <span class="hero-info-icon"><i class="fas fa-home" aria-hidden="true"></i></span>
+                  <span class="hero-info-text">
+                    <strong>Instituições parceiras</strong>
+                    <small>ONGs beneficiadas com as doações</small>
+                  </span>
+                  <span class="hero-info-badge">20</span>
+                </li>
+                <li>
+                  <span class="hero-info-icon"><i class="fas fa-weight-hanging" aria-hidden="true"></i></span>
+                  <span class="hero-info-text">
+                    <strong>Alimentos arrecadados</strong>
+                    <small>Doações de 1kg por inscrição</small>
+                  </span>
+                  <span class="hero-info-badge">5 ton</span>
+                </li>
+              </ul>
+              <div class="hero-info-footer">
+                <a href="#voluntario" class="hero-info-link">
+                  <i class="fas fa-hand-holding-heart me-2" aria-hidden="true"></i>Quero ser voluntário
+                </a>
+                <a href="#parceiros" class="hero-info-link">
+                  <i class="fas fa-handshake me-2" aria-hidden="true"></i>Tornar-se parceiro
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre" class="hero-scroll" aria-label="Rolar para a próxima seção">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ============================================
+         2. SOBRE O PROJETO
+         ============================================ -->
+    <section id="sobre" class="section-padding bg-light" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="section-badge">Sobre o Projeto</span>
+            <h2 id="sobre-titulo" class="section-title">Educação acessível com propósito social</h2>
+            <p class="section-text">
+              O <strong>EducaAção</strong> é uma plataforma social inovadora que democratiza o acesso à educação
+              e fortalece a rede de solidariedade em nossa comunidade. Oferecemos cursos gratuitos em diversas
+              áreas, conectando alunos, professores voluntários e instituições sociais em uma rede de transformação.
+            </p>
+            <p class="section-text">
+              Cada inscrição gera impacto duplo: o aluno adquire novos conhecimentos e habilidades, enquanto
+              uma instituição parceira recebe alimentos essenciais para quem mais precisa. É educação que
+              transforma vidas — de quem aprende e de quem recebe.
+            </p>
+            <div class="sobre-stats d-flex flex-wrap gap-4 mt-4">
+              <div class="sobre-stat-item">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                <span>Cursos Gratuitos</span>
+              </div>
+              <div class="sobre-stat-item">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                <span>Doação Solidária</span>
+              </div>
+              <div class="sobre-stat-item">
+                <i class="fas fa-users" aria-hidden="true"></i>
+                <span>Rede de Voluntários</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="glass-card sobre-image-card">
+              <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+                   alt="Voluntários ensinando em sala de aula comunitária" class="img-fluid rounded-4" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         3. O PROBLEMA
+         ============================================ -->
+    <section id="problema" class="section-padding" aria-labelledby="problema-titulo">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-badge">O Problema</span>
+          <h2 id="problema-titulo" class="section-title">Desafios que enfrentamos juntos</h2>
+          <p class="section-subtitle mx-auto">
+            Milhares de pessoas enfrentam barreiras que impedem o acesso à educação e o fortalecimento
+            de instituições que amparam comunidades vulneráveis.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="problem-card glass-card h-100 text-center">
+              <div class="problem-icon">
+                <i class="fas fa-book-open" aria-hidden="true"></i>
+              </div>
+              <h3 class="problem-title">Falta de acesso a cursos</h3>
+              <p>Muitas pessoas não têm oportunidade de participar de cursos de qualificação por falta de oferta na região.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="problem-card glass-card h-100 text-center">
+              <div class="problem-icon">
+                <i class="fas fa-wallet" aria-hidden="true"></i>
+              </div>
+              <h3 class="problem-title">Dificuldades financeiras</h3>
+              <p>O alto custo de cursos e materiais impede que famílias em situação de vulnerabilidade possam se capacitar.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="problem-card glass-card h-100 text-center">
+              <div class="problem-icon">
+                <i class="fas fa-comments" aria-hidden="true"></i>
+              </div>
+              <h3 class="problem-title">Falta de espaços para compartilhar conhecimento</h3>
+              <p>Profissionais experientes desejam ensinar, mas não encontram plataformas para compartilhar seu saber.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="problem-card glass-card h-100 text-center">
+              <div class="problem-icon">
+                <i class="fas fa-box-open" aria-hidden="true"></i>
+              </div>
+              <h3 class="problem-title">Necessidade de arrecadação</h3>
+              <p>Instituições sociais parceiras dependem de doações para manter seus programas de assistência alimentar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         4. COMO FUNCIONA
+         ============================================ -->
+    <section id="como-funciona" class="section-padding bg-gradient-blue" aria-labelledby="como-titulo">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-badge section-badge-light">Como Funciona</span>
+          <h2 id="como-titulo" class="section-title text-white">Simples, solidário e transformador</h2>
+          <p class="section-subtitle text-white-50 mx-auto">
+            Em cinco passos, você aprende, contribui e ajuda quem mais precisa.
+          </p>
+        </div>
+        <div class="row g-4 steps-container">
+          <div class="col-md-6 col-lg-4 col-xl" data-aos="zoom-in" data-aos-delay="100">
+            <div class="step-card glass-card-light text-center h-100">
+              <div class="step-number">1</div>
+              <div class="step-icon"><i class="fas fa-search" aria-hidden="true"></i></div>
+              <h3 class="step-title">Escolha um curso</h3>
+              <p>Navegue pelos cursos disponíveis e escolha o que mais combina com seus interesses e objetivos.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl" data-aos="zoom-in" data-aos-delay="200">
+            <div class="step-card glass-card-light text-center h-100">
+              <div class="step-number">2</div>
+              <div class="step-icon"><i class="fas fa-edit" aria-hidden="true"></i></div>
+              <h3 class="step-title">Faça sua inscrição</h3>
+              <p>Preencha o formulário de inscrição com seus dados e selecione a instituição beneficiada.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl" data-aos="zoom-in" data-aos-delay="300">
+            <div class="step-card glass-card-light text-center h-100">
+              <div class="step-number">3</div>
+              <div class="step-icon"><i class="fas fa-shopping-basket" aria-hidden="true"></i></div>
+              <h3 class="step-title">Doe 1kg de alimento</h3>
+              <p>Leve 1kg de alimento não perecível no dia da aula. Sua doação vai direto para a ONG escolhida.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl" data-aos="zoom-in" data-aos-delay="400">
+            <div class="step-card glass-card-light text-center h-100">
+              <div class="step-number">4</div>
+              <div class="step-icon"><i class="fas fa-chalkboard" aria-hidden="true"></i></div>
+              <h3 class="step-title">Participe da aula presencial</h3>
+              <p>Compareça às aulas presenciais ministradas por professores voluntários qualificados.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl" data-aos="zoom-in" data-aos-delay="500">
+            <div class="step-card glass-card-light text-center h-100">
+              <div class="step-number">5</div>
+              <div class="step-icon"><i class="fas fa-hands-helping" aria-hidden="true"></i></div>
+              <h3 class="step-title">Ajude uma instituição social</h3>
+              <p>Sua participação fortalece instituições que cuidam de famílias e comunidades em vulnerabilidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         5. CURSOS DISPONÍVEIS
+         ============================================ -->
+    <section id="cursos" class="section-padding bg-light" aria-labelledby="cursos-titulo">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-badge">Cursos Disponíveis</span>
+          <h2 id="cursos-titulo" class="section-title">Aprenda com quem quer ensinar</h2>
+          <p class="section-subtitle mx-auto">
+            Cursos gratuitos ministrados por voluntários apaixonados por compartilhar conhecimento.
+          </p>
+        </div>
+        <div class="row g-4">
+
+          <!-- Informática Básica -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-delay="100">
+            <article class="course-card glass-card h-100">
+              <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80"
+                     alt="Curso de Informática Básica" loading="lazy">
+                <span class="course-badge">40h</span>
+              </div>
+              <div class="course-body">
+                <h3 class="course-title">Informática Básica</h3>
+                <p>Aprenda a usar o computador, navegar na internet, criar documentos e utilizar ferramentas essenciais do dia a dia.</p>
+                <p class="course-hours"><i class="fas fa-clock me-2" aria-hidden="true"></i>Carga horária: 40 horas</p>
+                <a href="#inscricao" class="btn btn-primary w-100 btn-inscrever" data-curso="Informática Básica">
+                  <i class="fas fa-pen me-2" aria-hidden="true"></i>Inscrever-se
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Programação Web -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="course-card glass-card h-100">
+              <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80"
+                     alt="Curso de Programação Web" loading="lazy">
+                <span class="course-badge">60h</span>
+              </div>
+              <div class="course-body">
+                <h3 class="course-title">Programação Web</h3>
+                <p>Desenvolva sites com HTML, CSS e JavaScript. Do zero ao seu primeiro projeto web funcional e responsivo.</p>
+                <p class="course-hours"><i class="fas fa-clock me-2" aria-hidden="true"></i>Carga horária: 60 horas</p>
+                <a href="#inscricao" class="btn btn-primary w-100 btn-inscrever" data-curso="Programação Web">
+                  <i class="fas fa-pen me-2" aria-hidden="true"></i>Inscrever-se
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Crochê -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <article class="course-card glass-card h-100">
+              <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&q=80"
+                     alt="Curso de Crochê" loading="lazy">
+                <span class="course-badge">30h</span>
+              </div>
+              <div class="course-body">
+                <h3 class="course-title">Crochê</h3>
+                <p>Domine técnicas de crochê para criar peças artesanais, gerar renda extra e desenvolver sua criatividade.</p>
+                <p class="course-hours"><i class="fas fa-clock me-2" aria-hidden="true"></i>Carga horária: 30 horas</p>
+                <a href="#inscricao" class="btn btn-primary w-100 btn-inscrever" data-curso="Crochê">
+                  <i class="fas fa-pen me-2" aria-hidden="true"></i>Inscrever-se
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Artesanato -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <article class="course-card glass-card h-100">
+              <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
+                     alt="Curso de Artesanato" loading="lazy">
+                <span class="course-badge">35h</span>
+              </div>
+              <div class="course-body">
+                <h3 class="course-title">Artesanato</h3>
+                <p>Explore técnicas de artesanato com materiais diversos para criar produtos únicos e empreender no setor criativo.</p>
+                <p class="course-hours"><i class="fas fa-clock me-2" aria-hidden="true"></i>Carga horária: 35 horas</p>
+                <a href="#inscricao" class="btn btn-primary w-100 btn-inscrever" data-curso="Artesanato">
+                  <i class="fas fa-pen me-2" aria-hidden="true"></i>Inscrever-se
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Empreendedorismo -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <article class="course-card glass-card h-100">
+              <div class="course-image">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&q=80"
+                     alt="Curso de Empreendedorismo" loading="lazy">
+                <span class="course-badge">45h</span>
+              </div>
+              <div class="course-body">
+                <h3 class="course-title">Empreendedorismo</h3>
+                <p>Aprenda a planejar, estruturar e gerenciar seu próprio negócio com ferramentas práticas de empreendedorismo social.</p>
+                <p class="course-hours"><i class="fas fa-clock me-2" aria-hidden="true"></i>Carga horária: 45 horas</p>
+                <a href="#inscricao" class="btn btn-primary w-100 btn-inscrever" data-curso="Empreendedorismo">
+                  <i class="fas fa-pen me-2" aria-hidden="true"></i>Inscrever-se
+                </a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         6. FORMULÁRIO DE INSCRIÇÃO
+         ============================================ -->
+    <section id="inscricao" class="section-padding" aria-labelledby="inscricao-titulo">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center mb-5" data-aos="fade-up">
+              <span class="section-badge">Inscrição</span>
+              <h2 id="inscricao-titulo" class="section-title">Faça sua inscrição agora</h2>
+              <p class="section-subtitle mx-auto">
+                Preencha o formulário abaixo e dê o primeiro passo para transformar sua vida e a de outros.
+              </p>
+            </div>
+            <div class="glass-card form-card p-4 p-md-5" data-aos="fade-up" data-aos-delay="200">
+              <!-- action preparado para integração futura com backend PHP -->
+              <form id="formInscricao" action="php/inscricao.php" method="POST" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inscricao-nome" class="form-label">Nome completo <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="inscricao-nome" name="nome" required
+                           placeholder="Seu nome completo" autocomplete="name">
+                    <div class="invalid-feedback">Por favor, informe seu nome completo.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inscricao-cpf" class="form-label">CPF <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="inscricao-cpf" name="cpf" required
+                           placeholder="000.000.000-00" maxlength="14" autocomplete="off">
+                    <div class="invalid-feedback">Por favor, informe um CPF válido.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inscricao-telefone" class="form-label">Telefone <span class="text-danger">*</span></label>
+                    <input type="tel" class="form-control" id="inscricao-telefone" name="telefone" required
+                           placeholder="(00) 00000-0000" maxlength="15" autocomplete="tel">
+                    <div class="invalid-feedback">Por favor, informe seu telefone.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inscricao-email" class="form-label">E-mail <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="inscricao-email" name="email" required
+                           placeholder="seu@email.com" autocomplete="email">
+                    <div class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inscricao-nascimento" class="form-label">Data de nascimento <span class="text-danger">*</span></label>
+                    <input type="date" class="form-control" id="inscricao-nascimento" name="data_nascimento" required
+                           max="">
+                    <div class="invalid-feedback">Por favor, informe sua data de nascimento.</div>
+                  </div>
+                  <div class="col-md-6 d-flex align-items-end">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" id="inscricao-menor" name="menor_idade" value="sim">
+                      <label class="form-check-label" for="inscricao-menor">
+                        Sou menor de 18 anos
+                      </label>
+                    </div>
+                  </div>
+
+                  <!-- Dados do responsável (exibido para menores) -->
+                  <div class="col-12 responsavel-section d-none" id="responsavel-section" aria-live="polite">
+                    <div class="responsavel-box">
+                      <h3 class="responsavel-title">
+                        <i class="fas fa-user-shield me-2" aria-hidden="true"></i>Dados do pai, mãe ou responsável legal
+                      </h3>
+                      <p class="responsavel-desc">Para alunos menores de idade, é necessário informar os dados de um responsável.</p>
+                      <div class="row g-3">
+                        <div class="col-md-6">
+                          <label for="responsavel-nome" class="form-label">Nome completo do responsável <span class="text-danger">*</span></label>
+                          <input type="text" class="form-control" id="responsavel-nome" name="responsavel_nome"
+                                 placeholder="Nome do pai, mãe ou responsável" autocomplete="off" disabled>
+                          <div class="invalid-feedback">Por favor, informe o nome do responsável.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="responsavel-parentesco" class="form-label">Parentesco <span class="text-danger">*</span></label>
+                          <select class="form-select" id="responsavel-parentesco" name="responsavel_parentesco" disabled>
+                            <option value="" selected disabled>Selecione</option>
+                            <option value="Pai">Pai</option>
+                            <option value="Mãe">Mãe</option>
+                            <option value="Avô/Avó">Avô/Avó</option>
+                            <option value="Tutor legal">Tutor legal</option>
+                            <option value="Outro">Outro</option>
+                          </select>
+                          <div class="invalid-feedback">Por favor, selecione o parentesco.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="responsavel-cpf" class="form-label">CPF do responsável <span class="text-danger">*</span></label>
+                          <input type="text" class="form-control" id="responsavel-cpf" name="responsavel_cpf"
+                                 placeholder="000.000.000-00" maxlength="14" autocomplete="off" disabled>
+                          <div class="invalid-feedback">Por favor, informe um CPF válido do responsável.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="responsavel-telefone" class="form-label">Telefone do responsável <span class="text-danger">*</span></label>
+                          <input type="tel" class="form-control" id="responsavel-telefone" name="responsavel_telefone"
+                                 placeholder="(00) 00000-0000" maxlength="15" autocomplete="tel" disabled>
+                          <div class="invalid-feedback">Por favor, informe o telefone do responsável.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="responsavel-email" class="form-label">E-mail do responsável</label>
+                          <input type="email" class="form-control" id="responsavel-email" name="responsavel_email"
+                                 placeholder="responsavel@email.com" autocomplete="email" disabled>
+                          <div class="invalid-feedback">Por favor, informe um e-mail válido do responsável.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="inscricao-curso" class="form-label">Curso <span class="text-danger">*</span></label>
+                    <select class="form-select" id="inscricao-curso" name="curso" required>
+                      <option value="" selected disabled>Selecione um curso</option>
+                      <option value="Informática Básica">Informática Básica</option>
+                      <option value="Programação Web">Programação Web</option>
+                      <option value="Crochê">Crochê</option>
+                      <option value="Artesanato">Artesanato</option>
+                      <option value="Empreendedorismo">Empreendedorismo</option>
+                    </select>
+                    <div class="invalid-feedback">Por favor, selecione um curso.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inscricao-ong" class="form-label">ONG Beneficiada <span class="text-danger">*</span></label>
+                    <select class="form-select" id="inscricao-ong" name="ong" required>
+                      <option value="" selected disabled>Selecione uma ONG</option>
+                      <option value="ONG Mãos Unidas">ONG Mãos Unidas</option>
+                      <option value="Instituto Futuro">Instituto Futuro</option>
+                      <option value="Banco Social">Banco Social</option>
+                      <option value="Casa do Caminho">Casa do Caminho</option>
+                    </select>
+                    <div class="invalid-feedback">Por favor, selecione uma ONG beneficiada.</div>
+                  </div>
+                  <div class="col-12 text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                      <i class="fas fa-paper-plane me-2" aria-hidden="true"></i>Enviar Inscrição
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         7. PROFESSOR VOLUNTÁRIO
+         ============================================ -->
+    <section id="voluntario" class="section-padding bg-light" aria-labelledby="voluntario-titulo">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <span class="section-badge">Professor Voluntário</span>
+            <h2 id="voluntario-titulo" class="section-title">Compartilhe seu conhecimento</h2>
+            <p class="section-text">
+              Você tem experiência e paixão por ensinar? Junte-se à nossa rede de professores voluntários
+              e faça a diferença na vida de dezenas de alunos. Não é necessário ser formado em pedagogia —
+              basta dominar a área que deseja ministrar e ter vontade de transformar vidas.
+            </p>
+            <ul class="voluntario-list">
+              <li><i class="fas fa-check-circle" aria-hidden="true"></i>Horários flexíveis de acordo com sua disponibilidade</li>
+              <li><i class="fas fa-check-circle" aria-hidden="true"></i>Suporte da equipe EducaAção em todo o processo</li>
+              <li><i class="fas fa-check-circle" aria-hidden="true"></i>Espaços de aula fornecidos por parceiros</li>
+              <li><i class="fas fa-check-circle" aria-hidden="true"></i>Certificado de voluntariado ao final do ciclo</li>
+            </ul>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="glass-card form-card p-4 p-md-5">
+              <form id="formVoluntario" action="php/voluntario.php" method="POST" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="voluntario-nome" class="form-label">Nome completo <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="voluntario-nome" name="nome" required
+                           placeholder="Seu nome completo" autocomplete="name">
+                    <div class="invalid-feedback">Por favor, informe seu nome.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="voluntario-area" class="form-label">Área de atuação <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="voluntario-area" name="area" required
+                           placeholder="Ex: Informática, Artesanato...">
+                    <div class="invalid-feedback">Por favor, informe sua Área de atuação.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="voluntario-experiencia" class="form-label">Experiência <span class="text-danger">*</span></label>
+                    <textarea class="form-control" id="voluntario-experiencia" name="experiencia" rows="3" required
+                              placeholder="Descreva sua experiência na área..."></textarea>
+                    <div class="invalid-feedback">Por favor, descreva sua experiência.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="voluntario-disponibilidade" class="form-label">Disponibilidade <span class="text-danger">*</span></label>
+                    <select class="form-select" id="voluntario-disponibilidade" name="disponibilidade" required>
+                      <option value="" selected disabled>Selecione</option>
+                      <option value="Manhã (8h às 12h)">Manhã (8h às 12h)</option>
+                      <option value="Tarde (13h às 17h)">Tarde (13h às 17h)</option>
+                      <option value="Noite (18h às 21h)">Noite (18h às 21h)</option>
+                      <option value="Finais de semana">Finais de semana</option>
+                    </select>
+                    <div class="invalid-feedback">Por favor, selecione sua disponibilidade.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="voluntario-email" class="form-label">E-mail <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="voluntario-email" name="email" required
+                           placeholder="seu@email.com" autocomplete="email">
+                    <div class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="voluntario-telefone" class="form-label">Telefone <span class="text-danger">*</span></label>
+                    <input type="tel" class="form-control" id="voluntario-telefone" name="telefone" required
+                           placeholder="(00) 00000-0000" maxlength="15" autocomplete="tel">
+                    <div class="invalid-feedback">Por favor, informe seu telefone.</div>
+                  </div>
+                  <div class="col-12 text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                      <i class="fas fa-chalkboard-teacher me-2" aria-hidden="true"></i>Quero ser Voluntário
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         8. PARCEIROS
+         ============================================ -->
+    <section id="parceiros" class="section-padding" aria-labelledby="parceiros-titulo">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-badge">Parceiros</span>
+          <h2 id="parceiros-titulo" class="section-title">Juntos fazemos mais</h2>
+          <p class="section-subtitle mx-auto">
+            Empresas, instituições e cidadãos podem apoiar o EducaAção de diversas formas.
+            Sua contribuição amplifica o impacto social do projeto.
+          </p>
+        </div>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="100">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-building" aria-hidden="true"></i>
+              <h3>Espaços para aulas</h3>
+              <p>Disponibilize salas e ambientes para a realização das aulas presenciais.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="150">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-bus" aria-hidden="true"></i>
+              <h3>Transporte</h3>
+              <p>Ajude alunos e voluntários com transporte até os locais de aula.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="200">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-utensils" aria-hidden="true"></i>
+              <h3>Alimentação</h3>
+              <p>Forneça lanches e refeições para alunos durante as aulas.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="250">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+              <h3>Materiais didáticos</h3>
+              <p>Doação de cadernos, livros, apostilas e materiais de escrita.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="300">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-laptop" aria-hidden="true"></i>
+              <h3>Equipamentos</h3>
+              <p>Computadores, projetores e equipamentos tecnológicos para as aulas.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="350">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+              <h3>Apoio financeiro</h3>
+              <p>Contribuições financeiras para custear a operação do projeto.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-auto" data-aos="flip-left" data-aos-delay="400">
+            <div class="partner-type-card glass-card text-center h-100">
+              <i class="fas fa-bullhorn" aria-hidden="true"></i>
+              <h3>Divulgação</h3>
+              <p>Amplie o alcance do projeto divulgando em suas redes e canais.</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center" data-aos="fade-up">
+          <a href="mailto:parceiros@educacao.org.br" class="btn btn-warning btn-lg px-5">
+            <i class="fas fa-handshake me-2" aria-hidden="true"></i>Quero ser Parceiro
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         9. CARROSSEL DE PARCEIROS
+         ============================================ -->
+    <section id="parceiros-carousel" class="section-padding-sm bg-light" aria-label="Parceiros do projeto">
+      <div class="container">
+        <h2 class="visually-hidden">Nossos parceiros</h2>
+        <div class="swiper partners-swiper" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80"
+                       alt="Secretaria Municipal de Educação" loading="lazy">
+                </div>
+                <span>Secretaria Municipal de Educação</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80"
+                       alt="Instituto Futuro" loading="lazy">
+                </div>
+                <span>Instituto Futuro</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&q=80"
+                       alt="Banco Social" loading="lazy">
+                </div>
+                <span>Banco Social</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=80"
+                       alt="ONG Mãos Unidas" loading="lazy">
+                </div>
+                <span>ONG Mãos Unidas</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&q=80"
+                       alt="Supermercado Solidário" loading="lazy">
+                </div>
+                <span>Supermercado Solidário</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner-logo-card">
+                <div class="partner-logo-img">
+                  <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&q=80"
+                       alt="Transportadora Esperança" loading="lazy">
+                </div>
+                <span>Transportadora Esperança</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         10. FRASE DE IMPACTO (PARALLAX)
+         ============================================ -->
+    <section id="frase-impacto" class="parallax-section section-padding-sm" aria-label="Frase de impacto">
+      <div class="container parallax-content text-center" data-aos="fade-up" data-aos-duration="800">
+        <blockquote class="parallax-quote parallax-glass-box">
+          <p>"Ninguém sabe tanto que não possa aprender, e ninguém sabe tão pouco que não possa ensinar."</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============================================
+         11. RESULTADOS ESPERADOS
+         ============================================ -->
+    <section id="resultados" class="section-padding resultados-section bg-light" aria-labelledby="resultados-titulo">
+      <div class="container resultados-content">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-badge">Resultados Esperados</span>
+          <h2 id="resultados-titulo" class="section-title">Impacto que transforma comunidades</h2>
+        </div>
+        <div class="row g-4 text-center">
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="counter-card glass-card-light">
+              <div class="counter-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></div>
+              <div class="counter-number" data-target="500">0</div>
+              <div class="counter-suffix">+</div>
+              <p class="counter-label">Alunos capacitados</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="counter-card glass-card-light">
+              <div class="counter-icon"><i class="fas fa-weight-hanging" aria-hidden="true"></i></div>
+              <div class="counter-number" data-target="5">0</div>
+              <div class="counter-suffix"> ton</div>
+              <p class="counter-label">de alimentos arrecadados</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="counter-card glass-card-light">
+              <div class="counter-icon"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></div>
+              <div class="counter-number" data-target="50">0</div>
+              <p class="counter-label">Voluntários</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="counter-card glass-card-light">
+              <div class="counter-icon"><i class="fas fa-home" aria-hidden="true"></i></div>
+              <div class="counter-number" data-target="20">0</div>
+              <p class="counter-label">Instituições beneficiadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       12. RODAPÉ
+       ============================================ -->
+  <footer id="rodape" class="footer" aria-label="Rodapé">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <img src="assets/img/logo-footer.png" alt="EducaAção" class="footer-logo mb-3" width="106" height="68">
+          <p class="footer-text">
+            Plataforma social que conecta quem quer aprender com quem quer ensinar,
+            transformando vidas através da educação e da solidariedade.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook do EducaAção"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram do EducaAção"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="YouTube do EducaAção"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn do EducaAção"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="#" aria-label="WhatsApp do EducaAção"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="footer-title">Links Rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre o Projeto</a></li>
+            <li><a href="#cursos">Cursos Disponíveis</a></li>
+            <li><a href="#inscricao">Inscrição</a></li>
+            <li><a href="#voluntario">Professor Voluntário</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="footer-title">Contato</h3>
+          <ul class="footer-contact">
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:contato@educacao.org.br">contato@educacao.org.br</a>
+            </li>
+            <li>
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <a href="tel:+556130000000">(61) 3000-0000</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <span>SHS Quadra 6, Conjunto A, Bloco E — Brasília/DF, 70316-100</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom text-center">
+        <p>&copy; 2026 EducaAção. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- AOS Animate -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- JavaScript customizado -->
+  <script src="js/main.js"></script>
+</body>
+</html>
