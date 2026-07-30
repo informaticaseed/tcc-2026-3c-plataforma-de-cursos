@@ -19,9 +19,8 @@
 | 1 | (Protótipo do site) | Alta | 🔄 Fazendo |
 | 2 | (Dinamica do site) | Alta | ⏳ A fazer |
 | 3 | (Cadastro e exibição de cursos) | Alta | ⏳ A fazer |
-| 4 | (Levantamento de requisitos) | Média | 🔄 Fazendo |
-| 5 | (Página explicativa sobre o projeto) | Média | ⏳ A fazer |
-| 6 | (Área de contato para instituições parceiras) | Baixa | ⏳ A fazer |
+| 4 | (Página explicativa sobre o projeto) | Média | ⏳ A fazer |
+| 5 | (Área de contato para instituições parceiras) | Baixa | ⏳ A fazer |
 
 > Atualize o Status conforme avança: ⏳ A fazer → 🔄 Fazendo → ✅ Feito
 
