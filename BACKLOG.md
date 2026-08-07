@@ -8,7 +8,7 @@
 
 ## 🎯 Objetivo do MVP
 
-(Desenvolver um protótipo funcional da plataforma EducaAção, permitindo a divulgação de cursos por instituições parceiras e a inscrição de participantes por meio da doação de alimentos.)
+(Desenvolver um protótipo funcional da plataforma EducaAção, permitindo a divulgação de cursos por instituições parceiras e a inscrição de participantes por meio da doação de alimentos ou valores simbolicos em dinheiro.)
 
 ---
 
