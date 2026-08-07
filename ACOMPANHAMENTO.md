@@ -1,7 +1,7 @@
 # Acompanhamento Quinzenal — Prof. Rafael
-**Grupo:** [Nome do Grupo]
-**Turma:** 3A / 3B / 3C
-**Repositório:** [link]
+**Grupo:** Plataforma de cursos
+**Turma:** 3A
+
 
 ---
 
@@ -11,9 +11,15 @@
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Sabrina | - frontend: CRUD aluno, CRUD voluntário|
+| Rebeca | - banco de dados: CRUD aluno, CRUD voluntário - banco de dados: CRUD aluno, CRUD voluntário |
+
+Backlog:
+- banco de dados: CRUD aluno, CRUD voluntário; CRUD colaborador; CRUD DOAÇÕES; CRUD CATÁLOGO DE CURSOS
+- backend:CRUD aluno, CRUD voluntário; CRUD colaborador; CRUD DOAÇÕES; CRUD CATÁLOGO DE CURSOS
+- frontend: CRUD aluno, CRUD voluntário; CRUD colaborador; CRUD DOAÇÕES; CRUD CATÁLOGO DE CURSOS
+- RELATÓRIO: resumo, abstract, introdução, fundamentação teórica,  metodologia, conclusão, bibliografia, anexo, apêndices
+
 
 ### Verificação em 08/08
 
