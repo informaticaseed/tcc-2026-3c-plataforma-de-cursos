@@ -12,7 +12,7 @@
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
 | Sabrina | - frontend: CRUD aluno, CRUD voluntário|
-| Rebeca | - banco de dados: CRUD aluno, CRUD voluntário - banco de dados: CRUD aluno, CRUD voluntário |
+| Rebeca | - banco de dados: CRUD aluno, CRUD voluntário  |
 
 Backlog:
 - banco de dados: CRUD aluno, CRUD voluntário; CRUD colaborador; CRUD DOAÇÕES; CRUD CATÁLOGO DE CURSOS
@@ -36,13 +36,12 @@ Backlog:
 
 ## Quinzena 2 — 10/08 a 22/08
 
-### Compromissos assumidos em 10/08
+### Compromissos assumidos em 25/08
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Sabrina | Integrar o frontend com o backend para o funcionanmento|
+| Rebeca | Iniciar a parte escrita com o padrão de TCC da escola  |
 
 ### Verificação em 22/08
 
