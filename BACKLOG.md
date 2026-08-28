@@ -16,13 +16,13 @@
 
 | # | Funcionalidade | Prioridade | Status |
 |---|---------------|-----------|--------|
-| 1 | (Protótipo do site) | Alta | ✅ Feito |
-| 2 | (Dinâmica do site) | Alta | ✅ Feito |
-| 3 | (Cadastro e exibição de cursos) | Alta | ✅ Feito |
-| 4 | (Levantamento de requisitos) | Média | ✅ Feito |
-| 5 | (Página explicativa sobre o projeto) | Média | ✅ Feito |
-| 6 | (Área de contato para instituições parceiras) | Baixa | ✅ Feito |
-| 7 | (Criação do diagrama do caso de uso) | Média | ✅ Feito |
+| 1 | Resumo e abstract | Alta | ⏳ A fazer |
+| 2 | Introdução | Alta | ⏳ A fazer |
+| 3 | Justificativa | Alta | ⏳ A fazer |
+| 4 | Objetivos | Alta | ⏳ A fazer |
+| 5 | Fundamentação Teorica | Alta | ⏳ A fazer |
+| 6 | Metodologia | Alta | ⏳ A fazer |
+| 7 | Conclusão | Alta | ⏳ A fazer |
 
 
 > Atualize o Status conforme avança: ⏳ A fazer → 🔄 Fazendo → ✅ Feito
