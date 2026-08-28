@@ -32,7 +32,7 @@
 ## 🚫 Fora do escopo (não entra no MVP)
 
 - (o que vocês decidiram não fazer)
-- (o que ficou para depois)
+- (Deixamos para a proxima semana a implementação do site)
 
 ---
 
