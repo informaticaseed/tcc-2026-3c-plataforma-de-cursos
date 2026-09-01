@@ -16,11 +16,11 @@
 
 | # | Funcionalidade | Prioridade | Status |
 |---|---------------|-----------|--------|
-| 1 | Resumo e abstract | Alta | ⏳ A fazer |
+| 1 | Resumo e Abstract | Alta | ⏳ A fazer |
 | 2 | Introdução | Alta | ⏳ A fazer |
 | 3 | Justificativa | Alta | ⏳ A fazer |
 | 4 | Objetivos | Alta | ⏳ A fazer |
-| 5 | Fundamentação Teorica | Alta | ⏳ A fazer |
+| 5 | Fundamentação Teórica | Alta | ⏳ A fazer |
 | 6 | Metodologia | Alta | ⏳ A fazer |
 | 7 | Conclusão | Alta | ⏳ A fazer |
 
@@ -32,7 +32,6 @@
 ## 🚫 Fora do escopo (não entra no MVP)
 
 - (o que vocês decidiram não fazer)
-- (Deixamos para a proxima semana a implementação do site)
 
 ---
 
