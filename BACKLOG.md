@@ -16,13 +16,13 @@
 
 | # | Funcionalidade | Prioridade | Status |
 |---|---------------|-----------|--------|
-| 1 | Resumo e Abstract | Alta | ⏳ A fazer |
-| 2 | Introdução | Alta | ⏳ A fazer |
-| 3 | Justificativa | Alta | ⏳ A fazer |
-| 4 | Objetivos | Alta | ⏳ A fazer |
-| 5 | Fundamentação Teórica | Alta | ⏳ A fazer |
-| 6 | Metodologia | Alta | ⏳ A fazer |
-| 7 | Conclusão | Alta | ⏳ A fazer |
+| 1 | Resumo e Abstract | Alta | 🔄 Fazendo |
+| 2 | Introdução | Alta | 🔄 Fazendo |
+| 3 | Justificativa | Alta | 🔄 Fazendo |
+| 4 | Objetivos | Alta | 🔄 Fazendo |
+| 5 | Fundamentação Teórica | Alta | 🔄 Fazendo |
+| 6 | Metodologia | Alta | 🔄 Fazendo |
+| 7 | Conclusão | Alta | 🔄 Fazendo |
 
 
 > Atualize o Status conforme avança: ⏳ A fazer → 🔄 Fazendo → ✅ Feito
