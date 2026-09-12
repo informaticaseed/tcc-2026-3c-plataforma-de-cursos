@@ -16,11 +16,11 @@
 
 | # | Funcionalidade | Prioridade | Status |
 |---|---------------|-----------|--------|
-| 1 | Resumo e Abstract | Alta | 🔄 Fazendo |
-| 2 | Introdução | Alta | 🔄 Fazendo |
-| 3 | Justificativa | Alta | 🔄 Fazendo |
-| 4 | Objetivos | Alta | 🔄 Fazendo |
-| 5 | Fundamentação Teórica | Alta | 🔄 Fazendo |
+| 1 | Resumo e Abstract | Alta | ✅ Feito |
+| 2 | Introdução | Alta | ✅ Feito |
+| 3 | Justificativa | Alta | ✅ Feito |
+| 4 | Objetivos | Alta | ✅ Feito |
+| 5 | Fundamentação Teórica | Alta | ✅ Feito |
 | 6 | Metodologia | Alta | 🔄 Fazendo |
 | 7 | Conclusão | Alta | 🔄 Fazendo |
 
