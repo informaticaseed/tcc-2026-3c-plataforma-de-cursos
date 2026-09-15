@@ -58,13 +58,12 @@ Backlog:
 
 ## Quinzena 3 — 24/08 a 05/09
 
-### Compromissos assumidos em 24/08
+### Compromissos assumidos em 15/09
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Sabrina | Finalizar o relatório final: metodologia e fundamentação teórica, inserir os diagramas no relatório: DFD, diagrama de caso de uso, modelo entidade relacionamento (DER/MER banco de dados)|
+| Rebeca | Finalizar frontend  |
 
 ### Verificação em 05/09
 
