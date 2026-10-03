@@ -20,9 +20,10 @@
 | 2 | Introdução | Alta | ✅ Feito |
 | 3 | Justificativa | Alta | ✅ Feito |
 | 4 | Objetivos | Alta | ✅ Feito |
-| 5 | Fundamentação Teórica | Alta | 🔄 Fazendo |
+| 5 | Fundamentação Teórica | Alta | ✅ Feito |
 | 6 | Metodologia | Alta | 🔄 Fazendo |
 | 7 | Conclusão | Alta | 🔄 Fazendo |
+| 8 | Conclusão definitiva do site | Alta | ✅ Feito |
 
 
 > Atualize o Status conforme avança: ⏳ A fazer → 🔄 Fazendo → ✅ Feito
